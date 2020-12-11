@@ -70,6 +70,12 @@ options:
     type: bool
     default: no
     version_added: "2.7"
+  merge_hashes:
+    description:
+      - Merges existing hash variables instead of overwriting them.
+    default: False
+    type: bool
+    version_added: "2.11"
   free-form:
     description:
       - This module allows you to specify the 'file' option directly without any other options.
