@@ -1,0 +1,2 @@
+minor_changes:
+  - include_vars - add ``merge_hashes`` option
