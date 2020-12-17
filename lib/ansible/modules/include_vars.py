@@ -73,6 +73,7 @@ options:
   merge_hashes:
     description:
       - Merges existing hash variables instead of overwriting them.
+      - When false, the behavior falls back to the global 'hash_behaviour' configuration.
     default: False
     type: bool
     version_added: "2.11"
